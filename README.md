@@ -1,5 +1,7 @@
 # trashink.com_web_project
-#This project is about our studio own website, as owner i will push every code on time. 
+
+#This project is related to our studio's own website. As the owner, I will push the code in time.
+
 #author: KroFin
 #website:*************************
 ======================================================================
