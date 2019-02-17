@@ -1,1 +1,1 @@
-Put your javascript file over here.
+Put your javascript files over here.
