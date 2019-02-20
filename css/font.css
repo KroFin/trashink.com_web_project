@@ -1,0 +1,13 @@
+#font-homepage{
+	font-family: 微软雅黑;
+	font-size: 60px;
+	position: relative;
+	top: 300px;
+	left: 750px;
+
+	color: #ffffff;
+}
+.font-position{
+	/*margin-top: 300px; */
+	text-align: center;
+}
