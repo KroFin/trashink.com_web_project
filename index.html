@@ -1,98 +1,250 @@
 <!DOCTYPE html>
-<html>
-<head> 
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+<head>
+  <title>Home </title>
 
-    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+  
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Karla:400,400i,700%7CLato:300,400,400i,700' rel='stylesheet'>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/font.css">
-	<link rel="stylesheet" type="text/css" href="css/img.css">
-	<link rel="stylesheet" type="text/css" href="css/font.css">
-	<link rel="stylesheet" type="text/css" href="css/place.css">
-	<style type="text/css">
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-icons.css" />
+  <link rel="stylesheet" href="css/sliders.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-		body {
-		  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		  font-size: 14px;
-		  line-height: 1.428571429;
-		  color: #333333;
-		}
-		
-		#bg1{
-			background-image: url(icon/background.jpg);
-			background-repeat: no-repeat;
-			background-size: 100%;
-			width: 1903px;
-			height: 968px;
-}
-		#bg2{
-			background-color: #7baabe;
-			background-repeat: repeat-x;
-			width: 1903px;
-			height: 968px;
-	}
-		#bg3{
-			background-color: #1bbc9b;
-	 		background-repeat:  repeat-x;
-			width: 1903px;
-			height: 968px;
-}
-		#bg4{
-			background-color: #ff9900;
-			background-repeat:  repeat-x;
-			width: 1903px;
-			height: 968px;
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-}
-
-	</style>
-		<title>屈行科技</title>
 </head>
 
 <body>
-	<div id="bg1">
-		<div class="container">	
-			<div class="row">
-				<div style="position: relative; top: 250px;">
-				<h1 class="text-center font-homepage">欢迎来到屈行科技</h1>
-		<img src="icon/LOGO.png" class="img-responsive center-block"
-		 alt="LOGO">
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div id="bg2">
-		<div>
-			<img src="icon/computer.png" 
-			class="img-responsive center-block" alt="computer" 
-			style="float: left; position: relative; left: 150px; top:250px;">
-			<img src="icon/web.png" 
-			class="img-responsive center-block" alt="computer" 
-			style="float: left; position: relative; left: 40px; top:450px; width: 20%;">
-		</div>
-			<div style="position: relative;left:1200px;top: -200px; 
-				width: 500px;height: 200px;
-			">
-				<p class="font-bg2">屈行科技下属web设计、网络安全、线上平台运营三大部门，多元化的业务方向满足您的需求。</p>
-				<a href="" class="font-link">>>点击下载查看我们的业务图</a>
-			</div>
-	</div>
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      "Loading..."
+    </div>
+  </div>
+
+  <main class="main-wrapper">
+
+    <!-- Navigation -->
+    <header class="nav nav--transparent nav--always-fixed nav--sticky-on-mobile">
+      <div class="nav__holder nav__holder--no-line" id="sticky-nav">
+
+        <div class="container-fluid container-semi-fluid">
+          <div class="flex-parent">
+
+            <div class="nav__header clearfix">
+              <!-- Logo -->
+              <div class="logo-wrap">
+                <a href="index.html" class="logo__link">
+                  <img class="logo logo--dark" src="img/LOGO.png" alt="logo">
+                  <img class="logo logo--light" src="img/LOGO.png" alt="logo" >
+                </a>
+              </div>
+            </div> <!-- end nav-header -->
+
+            <!-- Nav Open Icon -->
+            <div class="nav__icon-wrap">
+              <div id="nav__icon" class="nav__icon">
+                <div class="nav__icon__inner">
+                  <a href="#" id="nav__icon__trigger" class="nav__icon__trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+          </div> <!-- end flex-parent -->
+        </div> <!-- end container -->
+      </div>
 
 
-	<div id="bg3">
+      <!-- Fullscreen Menu -->
+      <div class="nav__overlay" id="nav__overlay">
+        <div class="nav__overlay__menu">
+          <ul>
+            <li><a href="#">项目列表</a></li>
+            <li><a href="#">人事计划</a></li>
+            <li><a href="#">企业网盘</a></li>
+            <li><a href="#">企业邮箱</a></li>
+            <li><a href="#">屈行加速服务</a></li>
 
-	</div>
+            <!-- <li><a href="../select_demo/index.html">Demos</a></li> -->
+          </ul>
+        </div>
 
-	<div id="bg4">
+        <!-- Nav Close Icon -->
+        <div class="nav__icon-wrap">
+          <div class="nav__icon">
+            <div class="nav__icon__inner">
+              <a href="#" id="nav__icon__close" class="nav__icon__trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
 
-	</div>
+      </div>
+    </header> <!-- end navigation -->
+<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网站建设</a></div>
+
+    <div class="content-wrapper oh">
+
+      <!-- Fullpage -->
+      <div id="fullpage" class="fullscreen-img">
+
+        <!-- Hero -->
+        <div class="section hero bg-img" style="background-image: url(img/hero/background.jpg);">
+          <div class="container">
+            <div class="hero__outer">
+              <div class="hero__inner">
+                <h3 class="hero__subtitle--uppercase">Welcome to trashink Technology</h3>
+                <h1 class="hero__title hero--boxed--md hero--bold">We craft digital experience with knowledge, passion and intuitive ideas.</h1>
+              </div>
+            </div>
+
+            <!-- Partners -->
+           
 
 
-    <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+          </div>          
+        </div> <!-- end hero -->
+
+        <!-- Services -->
+        <div class="section hero bg-img" style="background-image: url(img/hero/background2.jpg)">
+            <div class="container" style="margin-top: 50px;">
+              <div class="row">
+                <div class="col-xs-3">
+                  <img src="img/web.png">
+                </div>
+                <div class="col-xs-3 col-xs-pull-1">
+                  <img src="img/computer.png">
+                </div>
+                <div >
+                  <h2 class="col-xs-5 col-md-6 " style="color: #fff;">
+                    屈行科技Web设计，网络安全，线上平台运营三大部门多元化业务方向满足您的需求。
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+
+
+        </div> <!-- end services -->
+
+        <!-- Project 1 -->
+        <div class="section hero bg-img" style="background-image: url(img/hero/background4.jpg)">
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-3 col-md-4 col-xs-push-8">
+                  <img src="img/business_team-ideas.png" style="color: #fff;">
+                </div>
+                <div >
+                  <h2 class="col-xs-6 col-md-8 col-md-pull-5 col-xs-pull-2" style="color: #fff;">
+                    屈行科技完全由大学生自主组成，拥有一支有着项目实践经验以及优秀团队经验的管理团队，人性化管理屈行科技下属所有项目组。
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+        </div> <!-- end project 1 -->
+
+
+
+        <!-- Contact -->
+        <div class="section hero bg-img" style="background-image: url(img/hero/background3.jpg)">
+          <div class="container pt-sm-60">
+            <div class="hero__outer">
+              <div class="hero__inner text-center">
+
+                <div class="heading-row text-center">
+                  <h2 class="heading heading--lg">Contact Us</h2>
+                  <p class="subheading white hidden-xs">Feel free to contact us or visit us at our office anytime.
+                  </p>
+                </div>
+
+
+
+                <div class="contact-item">
+                  <span class="contact-item__title">Phone:</span>
+                  <a href="tel:+64-93-310-70-50" class="contact-item__phone">xxx</a>              
+                </div> <!-- end phone -->
+
+                <div class="contact-item">
+                  <span class="contact-item__title">Email:</span>
+                  <a href="mailto:hello@support.com" class="contact-item__email">xxx</a>
+                </div> <!-- end email -->
+
+                <div class="social-icons social-icons--nobase social-icons--white mt-50">
+                 <!--  <a href="#"><i class="ui-twitter"></i></a>
+                  <a href="#"><i class="ui-facebook"></i></a>
+                  <a href="#"><i class="ui-linkedin"></i></a>
+                  <a href="#"><i class="ui-instagram"></i></a> -->
+                </div>
+
+              </div>           
+            </div>
+          </div>
+          <div class="container">
+           <div class="partners partners--overlay">
+              <div class="container">
+                <div class="row ">
+                  <div class="col-xs-3 col-xxs-6 ">
+                    <a href="https://github.com/SteveMiller233/trashink.com_web_project">
+                      <img src="img/partners/github.png" alt="" >
+                    </a>
+                  </div>
+                  <div class="col-xs-3 col-xxs-6 ">
+                    <a href="#">
+                      <img src="img/partners/wechat.png" alt="">
+                    </a>
+                  </div>
+                  <div class="col-xs-3 col-xxs-6 ">
+                    <a href="#">
+                      <img src="img/partners/twitter.png" alt="">
+                    </a>
+                  </div>
+                  <div class="col-xs-3 col-xxs-6 ">
+                    <a href="#">
+                      <img src="img/partners/weibo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end partners -->
+        </div> <!-- end contact -->
+      </div> <!-- end fullpage -->
+
+
+    </div> <!-- end content wrapper -->
+  </main> <!-- end main wrapper -->
+  
+
+  <!-- jQuery Scripts -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>  
+  <script type="text/javascript" src="js/scripts.js"></script>
+    
 </body>
 </html>
