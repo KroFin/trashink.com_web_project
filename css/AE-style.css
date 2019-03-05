@@ -1,0 +1,9 @@
+@media (min-width: 992px) {
+  .top-center ,.top-back {
+    float: top;
+  }
+
+  .top-center{
+  	position: relative;
+  	top: 10rem;
+  }
