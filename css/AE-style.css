@@ -1,9 +1,21 @@
 @media (min-width: 992px) {
-  .top-center ,.top-back {
+  .top-center-md , {
     float: top;
   }
 
-  .top-center{
+  .top-center-md{
   	position: relative;
-  	top: 10rem;
+  	top: 14rem;
   }
+}
+
+  @media (max-width: 992px) {
+  .top-center-xs , {
+    float: top;
+  }
+
+  .top-center-xs{
+  	position: relative;
+  	top: 3rem;
+  }
+}
