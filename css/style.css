@@ -347,6 +347,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
         font-size: 28px; } }
 
 .heading-row {
+
   margin-bottom: 70px; }
   @media only screen and (max-width: 991px) {
     .heading-row {
@@ -1368,6 +1369,7 @@ label {
       .hero__outer {
         padding: 0 15px; } }
   .hero__inner {
+    text-shadow: 3px 3px 10px #3f3f3f; 
     display: table-cell;
     vertical-align: middle; }
   .hero__inner--bottom {
