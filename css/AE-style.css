@@ -1,21 +1,29 @@
+
+/*当画面宽度大于992px时调整文本上下位置 调整方式为修改top值*/
 @media (min-width: 992px) {
-  .top-center-md , {
+  .top-center-md  {
     float: top;
-  }
-
-  .top-center-md{
-  	position: relative;
-  	top: 14rem;
+    position: relative;
+  	top: 6rem;
   }
 }
 
-  @media (max-width: 992px) {
-  .top-center-xs , {
+/*当画面宽度大于1200px时调整文本上下位置 调整方式为修改top值*/
+ @media (min-width: 1200px) {
+  .top-center-md  {
     float: top;
-  }
-
-  .top-center-xs{
-  	position: relative;
-  	top: 3rem;
+    position: relative;
+  	top: 11rem;
   }
 }
+
+/*当画面宽度小于992px时调整文本上下间隔 调整方式为修改top值*/
+ @media (max-width: 992px) {
+  .top-center-xs  {
+    float: top;
+    position: relative;
+  	top: 1rem;
+  }
+}
+
+
