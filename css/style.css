@@ -1868,7 +1868,22 @@ iframe {
 /*-------------------------------------------------------*/
 /* Partners
 /*-------------------------------------------------------*/
+@media (min-width:430px){
 .partners--overlay {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  max-width: 1170px;
+  bottom: 0;
+  top: 22rem;
+  margin-left: -15px; }
+  .partners--overlay img {
+    opacity: .5; }
+  }
+
+/*
+/*
+  源代码为
+  .partners--overlay {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   position: absolute;
   max-width: 1170px;
@@ -1876,7 +1891,22 @@ iframe {
   margin-left: -15px; }
   .partners--overlay img {
     opacity: .5; }
+  }
 
+ */
+
+@media (max-width:600px){
+  .partners--overlay {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  max-width: 1170px;
+  bottom: 0;
+  top: 25rem;
+  margin-left: -15px; }
+  .partners--overlay img {
+    opacity: .5; }
+
+}
 /*-------------------------------------------------------*/
 /* Lightboxes
 /*-------------------------------------------------------*/
